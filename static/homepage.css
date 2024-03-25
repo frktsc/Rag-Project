@@ -1,0 +1,56 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	background: rgb(44, 47, 59);
+    background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
+	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+.hero-section {
+        background-color: rgb(85, 94, 103); /* Gri arka plan rengi */
+        padding: 60px 0; /* Üst ve alt boşluk */
+    }
+
+    .container {
+        max-width: 960px; /* İçeriğin genişliğini sınırla */
+        margin: 0 auto; /* Üst ve alt için marj yok, sağ ve sol için otomatik (içeriği yatay olarak ortala) */
+        padding: 100px; /* İçeriğe biraz boşluk ekle */
+    }
+
+    .navbar-nav .nav-link {
+        color: #ffffff !important; /* Beyaz renk */
+    }
+    
+    /* Jumbotron başlık rengini ayarlar */
+    .jumbotron-heading {
+        color: #ffffff; /* Bootstrap'un 'info' rengi */
+    }
+    
+    /* Jumbotron paragraf rengini ayarlar */
+    .lead-text-muted {
+        color: #f5f5f5;
+        font-weight: 500; /* Bootstrap'un 'secondary' rengi */
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+        color: #ffffff !important; /* Beyaz */
+    }
+    .rounded-circle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+
+    .rounded-circle {
+        width: 233px;
+        height: 233px; 
+        object-fit: cover; 
+    }
+
+    
